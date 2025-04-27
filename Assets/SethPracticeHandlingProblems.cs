@@ -6,6 +6,7 @@ public class SethPracticeHandlingProblems : MonoBehaviour
 {
     public List<string> oldBeliefList;
     public List<string> newBeliefList;
+    public bool subtituteBelief = false;
 
     public GameObject oldObject;
     public GameObject oldObjectPrefabConstruction;
@@ -55,9 +56,13 @@ public class SethPracticeHandlingProblems : MonoBehaviour
                         if (Vector3.Distance(fearObjects[i].transform.position, hit.point) < 3)
                         {
                             healthOfFearObject[i]--;
-                            if (healthOfFearObject[i] <= 0) 
-                                //fearObjects[i].text = newBeliefList[i];
-                                fearObjects[i].gameObject.SetActive(false);
+                            if (healthOfFearObject[i] <= 0)
+                            //fearObjects[i].text = newBeliefList[i];
+                            {
+                                if(subtituteBelief==false) fearObjects[i].gameObject.SetActive(false);
+                                else fearObjects[i].text = newBeliefList[i];
+                            }
+                               
                         }
                     }
                 }

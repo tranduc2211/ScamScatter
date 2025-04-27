@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Seth Practice Handling pent up problems.unity
+    guid: 904ed4ece79741e49b4d136c4b28660e
   m_configObjects: {}
