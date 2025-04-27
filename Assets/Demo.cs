@@ -73,7 +73,7 @@ public class Demo : MonoBehaviour
         ScamScatter.Explode.Run(position, 1.5f, 2);
     }
 
-    private void OnGUI()
+    private void OnGUUUUUI()
     {
         var rect = Screen.safeArea;
         var bottom = rect.yMax;
