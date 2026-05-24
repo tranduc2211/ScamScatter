@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SkinFixing.unity
+    guid: 7a1c5b544df5e4b42913b2214281b20a
+  - enabled: 1
     path: Assets/Scenes/Seth Practice Handling pent up problems.unity
     guid: 904ed4ece79741e49b4d136c4b28660e
   m_configObjects: {}
